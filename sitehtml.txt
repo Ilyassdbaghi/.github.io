@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Lutte - Sport de Force et de Technique</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+  
+    body {
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #2563eb;
+      color: white;
+      text-align: center;
+      padding: 35px 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 5em;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      font-weight: 300;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      background: white;
+      color: #2563eb;
+      padding: 10px 18px;
+      border-radius: 25px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: 2px solid #2563eb;
+    }
+
+    nav a:hover {
+      background: #2563eb;
+      color: white;
+      transform: scale(1.05);
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 30px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center; 
+    font-size: 35px;      
+    font-weight: bold;    
+    letter-spacing: 1px;  
+  }
+
+
+    p {
+      font-size: 1.2em;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      max-width: 100%;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #eff6ff;
+      border-left: 6px solid #2563eb;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      background: #dbeafe;
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #1e40af;
+      margin-bottom: 10px;
+    }
+
+    #regles ol li {
+      margin-bottom: 10px;
+    }
+
+
+    #topBtn {
+      position: fixed;
+      bottom: 40px;
+      right: 20px;
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 12px 16px;
+      border-radius: 50%;
+      font-size: 20px;
+      cursor: pointer;
+      display: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
+    }
+
+    #topBtn:hover {
+      background: #1e40af;
+    }
+
+    iframe {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    
+    .sous-titre {
+      font-size: 1.6em;
+      font-weight: 400;
+      font-style: italic; 
+      color: #e0e7ff; 
+      margin-top: 10px;
+}
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>LA LUTTE</h1>
+    <p class="sous-titre">Un sport où la force rencontre la stratégie et la maîtrise de soi</p>
+    <nav>
+      <a href="#intro">LA LUTTE</a>
+      <a href="#histoire">HISTOIRE</a>
+      <a href="#styles">STYLES</a>
+      <a href="#personne">ATHLÈTE</a>
+      <a href="#bienfaits">BIENFAITS</a>
+      <a href="#regles">RÈGLES</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>QU'EST-CE QUE LA LUTTE ?</h2>
+      <p>La lutte est un sport de combat ancestral où deux adversaires cherchent à se maîtriser physiquement. 
+      Le but est de faire tomber ou immobiliser son adversaire sans lui porter de coups. 
+      C’est un sport qui développe la force, la souplesse, la technique et la stratégie.</p>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/0rrtDMqZZ6A?si=AFzZfAwi1FUQCqxg" 
+      title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="histoire">
+    <h2>SON HISTOIRE</h2>
+    <img src="https://s1.static-clubeo.com/uploads/lutteolympiquemassalia/Medias/lutte_antique_1__qb35od.jpg">
+    <p>La lutte est l’un des plus anciens sports du monde. On retrouve des représentations de lutteurs dans des fresques vieilles de plus de 5000 ans. Présente dans les Jeux Olympiques de la Grèce antique, elle est aujourd’hui une discipline olympique reconnue et pratiquée dans le monde entier.</p>
+    </section>
+  </main>
+
+    <section id="styles">
+      <h2>LES DIFFÉRENTS STYLES DE LUTTE</h2>
+
+      <div class="grid-container">
+        <div class="card">
+          <h3>Lutte libre</h3>
+          <p>Les prises peuvent être effectuées sur tout le corps, y compris les jambes. C’est le style le plus pratiqué dans le monde.</p>
+        </div>
+        <div class="card">
+          <h3>Lutte gréco-romaine</h3>
+          <p>Les lutteurs ne peuvent saisir que la partie supérieure du corps. Les jambes ne peuvent pas être utilisées pour attaquer ou défendre.</p>
+        </div>
+        <div class="card">
+          <h3>Lutte traditionnelle</h3>
+          <p>Chaque pays possède ses propres variantes : lutte sénégalaise, turque, mongole, etc. Elles ont souvent une valeur culturelle et rituelle.</p>
+        </div>
+        <div class="card">
+          <h3>Lutte universitaire</h3>
+          <p>Très populaire aux États-Unis, elle se pratique dans les écoles et universités, avec des règles proches de la lutte libre.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="personne">
+      <h2>JORDAN BURROUGHS</h2>
+      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSG3zbPrHeH2joCoPBd5kNx2INON9xwGLjc0yfxdD-2UosobzyJtltKEV0D3NGzzYSo1NRaFQPAnJRU1-1B-AJD98nicVAYJVG9wgJC_TA" alt="Jordan Burroughs">
+      <p><strong>Jordan Burroughs</strong> (né le 8 juillet 1988 à Camden, New Jersey) est un lutteur américain de freestyle, considéré comme l’un des meilleurs de sa génération. Il a commencé la lutte très jeune et a brillé à l’université de Nebraska avant de devenir professionnel. Il est connu pour sa technique explosive et son style agressif sur le tapis.
+
+Dans sa carrière, il a remporté la médaille d’or aux Jeux Olympiques 2012 et 6 titres de champion du monde (2011, 2013, 2015, 2017, 2018, 2019). Il a également gagné plusieurs championnats panaméricains et la médaille d’or aux Jeux panaméricains 2015.
+
+Jordan est reconnu non seulement pour ses performances, mais aussi pour son engagement à inspirer la jeunesse et promouvoir la lutte aux États-Unis. Son travail acharné et sa discipline font de lui une référence dans le monde de la lutte.</p>
+    </section>
+
+    <section id="bienfaits">
+      <h2>LES BIENFAITS DE LA LUTTE</h2>
+      <p>La lutte n’est pas seulement un sport physique : elle apporte aussi de nombreuses valeurs et bienfaits sur le plan mental et social.</p>
+      
+      <div class="grid-container">
+        <div class="card">
+          <h3>Force et endurance</h3>
+          <p>La lutte renforce tout le corps, améliore la puissance musculaire et développe la condition physique générale.</p>
+        </div>
+        <div class="card">
+          <h3>Discipline et mental</h3>
+          <p>Elle apprend la rigueur, la concentration et la maîtrise de soi, des qualités utiles dans la vie quotidienne.</p>
+        </div>
+        <div class="card">
+          <h3>Respect et esprit d’équipe</h3>
+          <p>Les lutteurs apprennent à respecter leurs adversaires, leurs entraîneurs et les règles du sport.</p>
+        </div>
+        <div class="card">
+          <h3>Confiance en soi</h3>
+          <p>Chaque progrès, chaque victoire renforce l’estime de soi et la confiance en ses capacités.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="regles">
+      <h2>5 RÈGLES DE LA LUTTE</h2>
+      <ol>
+        <li><strong>Projection ou amenée au sol :</strong> faire tomber l’adversaire ou le déséquilibrer.</li>
+        <li><strong>Saisie et contrôle :</strong> saisir les bras, les jambes, le torse selon le style pratiqué.</li>
+        <li><strong>Points et tombé :</strong> marquer des points pour les actions dominantes ou gagner par immobilisation.</li>
+        <li><strong>Interdictions :</strong> pas de coups, d’étouffement illégal ni de prises dangereuses.</li>
+        <li><strong>Temps et zone :</strong> le combat est chronométré, et sortir de la zone entraîne des pénalités.</li>
+      </ol>
+    </section>
+  </main>
+
+  <button id="topBtn">↑</button>
+
+  <script>
+    const topBtn = document.getElementById("topBtn");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 20) {
+        topBtn.style.display = "block";
+      } else {
+        topBtn.style.display = "none";
+      }
+    });
+
+    topBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+
+</body>
+</html>
