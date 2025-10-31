@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<meta name="google-site-verification" content="1ZYbXdUWllRgIWnMML6-t8feCPfzD3Lbo5juFJzx6uQ" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>La Lutte - Sport de Force et de Technique</title>
@@ -291,3 +292,4 @@ Jordan est reconnu non seulement pour ses performances, mais aussi pour son enga
 
 </body>
 </html>
+
